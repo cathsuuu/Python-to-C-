@@ -1,0 +1,47 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+    string term;
+
+    cout << "Enter your engineering term: ";
+    cin >> term;
+
+    if (term == "BEAM") {
+        cout << "BEAM: It is part of the structure that supports the load.";
+    } else if (term == "LOAD") {
+        cout << "LOAD: The weight or force that a structure or machine must support.";
+    } else if (term == "CIRCUIT") {
+        cout << "CIRCUIT: A complete path that allows electric current to flow.";
+    } else if (term == "TORQUE") {
+        cout << "TORQUE: A force that causes rotation, like turning a wrench.";
+    } else if (term == "CONCRETE") {
+        cout << "CONCRETE: A material made of cement, sand, and gravel, used in construction.";
+    } else if (term == "COMPASS") {
+        cout << "COMPASS: A tool for drawing circles or arcs.";
+    } else if (term == "PROTRACTOR") {
+        cout << "PROTRACTOR: A tool for measuring and drawing angles.";
+    } else if (term == "FRENCH CURVE") { 
+        cout << "FRENCH CURVE: A template for drawing smooth curves.";
+    } else if (term == "T-SQUARE") {
+        cout << "T-SQUARE: A ruler with a perpendicular head, used for drawing straight lines and right angles.";
+    } else if (term == "SCALE RULER") { 
+        cout << "SCALE RULER: A ruler with different measurement scales, used in drafting.";
+    } else if (term == "CAPACITANCE") {
+        cout << "CAPACITANCE: The amount of stored electrical potential in a capacitor.";
+    } else if (term == "CAD") {
+        cout << "CAD: Used to create and optimize design.";
+    } else if (term == "ACCURACY") {
+        cout << "ACCURACY: The exact/closeness measurement of a value.";
+    } else if (term == "ACCELERATION") {
+        cout << "ACCELERATION: The rate of an object’s velocity change over time.";
+    } else if (term == "AMPERE") {
+        cout << "AMPERE: SI base unit of electric current.";
+    } else {
+        cout << "No word is found.";
+    }
+
+    return 0;
+}
